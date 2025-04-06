@@ -24,10 +24,10 @@ function displaySummary(){
       }
       let summaryItems = "";
       data.forEach(item => {
-        summaryItems += `<li class="summary-item">
+        summaryItems += `<li class="summary-item" style="background-color:${item.bgColor};">
                             <div class="item-category">
                               <img src="${item.icon}"/>
-                              <span>${item.category}</span> 
+                              <span style="color:${item.color};">${item.category}</span> 
                             </div>
                             <div class="item-score-wrapper">
                               <span class="item-score">${item.score}</span> 

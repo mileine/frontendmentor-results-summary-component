@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.main{
+  background: #FFFFFF;
+  display: flex;
+  width: 736px;
+  margin: auto;
+  border-radius: 32px;
+  box-shadow: 10px 30px 60px rgba(61, 108, 236, 0.15);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  background: linear-gradient(#7755FF,#2F2CE9);
+  height: 512px;
+  border-radius: 32px;
+}
+
+.result h1 {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.score {
+  display:block;
+  background-color: aquamarine;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#4D21C9,rgba(37,33,301,0));
+  margin: 0 auto;
+}
+
+.score-info {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-info h2 {
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.score-info span {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.summary {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  margin: auto;
+}
+
+.summary-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.summary-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.item-category{
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ECF2FF;
+}
+
+.btn {
+  background-color: #303B59;
+  color: #FFFFFF;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  border-radius: 128px;
+}
